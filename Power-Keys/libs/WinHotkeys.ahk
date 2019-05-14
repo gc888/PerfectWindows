@@ -1,5 +1,8 @@
-﻿$#Esc::Return
-$#Esc Up::
+﻿LWin & Esc::Return
+RWin & Esc::Return
+
+LWin & Esc Up::
+RWin & Esc Up::
 Process,Exist,Magnify.exe
 if ErrorLevel
 {
@@ -14,20 +17,30 @@ Else
 }
 Return
 
-$#=::Volume_Up
-$#-::Volume_Down
+LWin & =::Volume_Up
+RWin & =::Volume_Up
+LWin & -::Volume_Down
+RWin & -::Volume_Down
 
-$#\::Return
-$#\ Up::Send {Volume_Mute}
+LWin & \::Return
+RWin & \::Return
+LWin & \ Up::Send {Volume_Mute}
+RWin & \ Up::Send {Volume_Mute}
 
-$#[::Return
-$#[ Up::Send {Media_Prev}
+LWin & [::Return
+RWin & [::Return
+LWin & [ Up::Send {Media_Prev}
+RWin & [ Up::Send {Media_Prev}
 
-$#]::Return
-$#] Up::Send {Media_Next}
+LWin & ]::Return
+RWin & ]::Return
+LWin & ] Up::Send {Media_Next}
+RWin & ] Up::Send {Media_Next}
 
-$#'::Return
-$#' Up::Send {Media_Play_Pause}
+LWin & '::Return
+RWin & '::Return
+LWin & ' Up::Send {Media_Play_Pause}
+RWin & ' Up::Send {Media_Play_Pause}
 
 #if !GameMode
 
