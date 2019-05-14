@@ -46,10 +46,21 @@ y::Send {7 Down}{7 Up}
 u::Send {8 Down}{8 Up}
 i::Send {9 Down}{9 Up}
 Space::Send {0 Down}{0 Up}
+
+a::Send {LShift Down}{a Down}{a Up}{LShift Up}
+b::Send {LShift Down}{b Down}{b Up}{LShift Up}
+c::Send {LShift Down}{c Down}{c Up}{LShift Up}
+d::Send {LShift Down}{d Down}{d Up}{LShift Up}
+e::Send {LShift Down}{e Down}{e Up}{LShift Up}
+f::Send {LShift Down}{f Down}{f Up}{LShift Up}
+
 Alt::Send {. Down}{. Up}
 RCtrl::Send {Enter Down}{Enter Up}
 .::Send {Enter Down}{Enter Up}
 Enter::Send {Enter Down}{Enter Up}
+BackSpace::Send {BackSpace Down}{Backspace Up}
+Delete::Send {Delete Down}{Delete Up}
+
 l::Send {LShift Down}{= Down}{= Up}{LShift Up}
 o::Send {LShift Down}{= Down}{= Up}{LShift Up}
 =::Send {LShift Down}{= Down}{= Up}{LShift Up}
@@ -58,7 +69,11 @@ o::Send {LShift Down}{= Down}{= Up}{LShift Up}
 8::Send {LShift Down}{8 Down}{8 Up}{LShift Up}
 7::Send {/ Down}{/ Up}
 /::Send {/ Down}{/ Up}
-BackSpace::Send {BackSpace Down}{Backspace Up}
+
+3::Send {LShift Down}{3 Down}{3 Up}{LShift Up}
+4::Send {LShift Down}{4 Down}{4 Up}{LShift Up}
+5::Send {LShift Down}{5 Down}{5 Up}{LShift Up}
+`;::Send {LShift Down}{; Down}{; Up}{LShift Up}
 
 `::
 Send {1 Down}{`` Down}{1 Up}{`` Up}

@@ -112,7 +112,7 @@ Return
 
 Restart:
 FileRemoveDir,%ProgramFilesDir%,1
-Run,"%A_ScriptFullPath%" /restart,,UseErrorLevel
+Reload
 Exitapp
 Return
 

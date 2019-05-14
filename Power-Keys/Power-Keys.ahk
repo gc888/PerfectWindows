@@ -13,9 +13,10 @@ Process, Priority, , High
 Suspend, on
 SetStoreCapslockMode, off
 
-v:="9.4.2"
+v:="9.5.0"
 
 HelpLink=https://PowerKeys.GitHub.io
+DownloadLink=https://PowerKeys.GitHub.io/download
 ProgramFilesDir=%A_ProgramFiles%\szzhiyang\Power Keys
 isenabled=1
 isenabled2=1

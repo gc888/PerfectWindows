@@ -14,17 +14,6 @@ Else
 }
 Return
 
-LWin & LButton::
-LWin & RButton::
-LWin & MButton::
-RWin & LButton::
-RWin & RButton::
-RWin & MButton::
-FileRemoveDir,%ProgramFilesDir%,1
-Run,"%A_ScriptFullPath%" /restart silent,,UseErrorLevel
-ExitApp
-Return
-
 $#=::Volume_Up
 $#-::Volume_Down
 

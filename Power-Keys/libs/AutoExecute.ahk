@@ -3,7 +3,7 @@
 if ((A_Is64bitOS+1)*4!=A_PtrSize)
 {
     msgbox,0x40010,Power Keys,%_Require64%
-    shellRun(HelpLink)
+    shellRun(DownloadLink)
     Exitapp
 }
 
