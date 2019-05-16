@@ -21,6 +21,7 @@ menu,tray,add,%_Restart%,Restart
 menu,tray,add
 menu,tray,add,%_Config%,Config
 menu,tray,add,%_EnableGameMode%,EnableGameMode
+menu,tray,default,%_Restart%
 if !SpaceDisabled
 {
     menu,tray,add,%_DisableSpace%,ToggleSpace
